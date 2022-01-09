@@ -1,0 +1,36 @@
+img {
+height: 150px;
+}
+header{
+    background-color: brown;
+    display: grid;
+    grid-template-columns: 25% 75%;
+    padding: 20px;
+}
+footer {
+    background-color: brown;
+    text-align: center;
+}
+header h1{
+    color: burlywood;
+    position:relative;
+    top: 25px;
+    text-align: center;
+}
+footer h2, footer p{
+    color: burlywood;
+}
+hr.solid {
+    border-top: 3px solid #bbb;
+}
+body{
+    width: 500px;
+    margin: auto;
+}
+.block{
+    display:inline;
+    width:auto;
+}
+.blockend{
+    width: auto;
+}
