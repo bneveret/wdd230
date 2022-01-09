@@ -2,13 +2,13 @@ img {
 height: 150px;
 }
 header{
-    background-color: brown;
+    background-color: #4D1414;
     display: grid;
     grid-template-columns: 25% 75%;
     padding: 20px;
 }
 footer {
-    background-color: brown;
+    background-color: #4D1414;
     text-align: center;
 }
 header h1{
