@@ -16,6 +16,7 @@ header h1{
     position:relative;
     top: 25px;
     text-align: center;
+    font-family: 'Luxurious Roman', cursive;
 }
 footer h2, footer p{
     color: burlywood;
