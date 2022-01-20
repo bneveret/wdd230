@@ -1,0 +1,21 @@
+@media only screen and (min-width: 32.5em) {
+    header{
+        display: grid;
+        grid-template-columns: 25% 75%;
+        padding: 20px;
+    }
+    body{
+        width: 500px;
+        margin: auto;
+    }
+    .block{
+        display:inline;
+        width:auto;
+    }
+    .blockend{
+        width: auto;
+    }
+    header h1{
+        top: 25px;
+    }
+}
