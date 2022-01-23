@@ -7,18 +7,18 @@ p {
     word-wrap:break-word;
 }
 .foreground {
-    color: #982525;
-    background-color: #C5EDC5;
+    color: #89043D;
+    background-color: #5B8C5A;
 }
 header {
     display: flex;
-    background-color: #C5EDC5;
-    color: #982525;
+    background-color: #5B8C5A;
+    color: #89043D;
     text-align: center;
 }
 body {
-    background-color: #0D5D73;
-    color: #FFFFFF;
+    background-color: #1282A2;
+    color: #FEFCFB;
 }
 div.index {
     display: grid;
