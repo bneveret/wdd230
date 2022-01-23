@@ -1,0 +1,39 @@
+h1 h2 h3 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+p {
+    font-family: 'Raleway', sans-serif;
+    width:300px; 
+    word-wrap:break-word;
+}
+.foreground {
+    color: #89043D;
+    background-color: #5B8C5A;
+}
+header {
+    display: flex;
+    background-color: #5B8C5A;
+    color: #89043D;
+    text-align: center;
+}
+body {
+    background-color: #1282A2;
+    color: #FEFCFB;
+}
+div.index {
+    display: grid;
+    column-gap: 10px;
+    grid-template-columns: auto auto;
+    justify-items: center;
+}
+@media only screen and (min-width: 750px) {
+div {
+    display: grid;
+    column-gap: 10px;
+    grid-template-columns: auto auto auto auto;
+}
+body {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+}
