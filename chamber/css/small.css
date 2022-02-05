@@ -1,9 +1,20 @@
 html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
-header, footer {
+header, footer, button {
     background-color: #5B8C5A;
     color: #89043D;
+}
+
+a {
+    color: #89043D;
+}
+a:hover {
+    color: black;
+}
+
+#hero button:hover {
+    background-color: rgba(0,0,0,0.2);
 }
 
 img {
@@ -31,7 +42,7 @@ body {
 main {
     display: grid;
     gap: 10px;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: min-content min-content min-content min-content min-content min-content;
 }
 
 footer div {
@@ -52,7 +63,7 @@ p, a {
 main div {
     display: inline-block;
     background-color: rgba(0,0,0,0.2);
-    height: 100px;
+    min-height: 50px;
 }
 
 nav button {
@@ -104,9 +115,70 @@ nav ul.open {display: block;}
     gap: 10px;
     grid-template-rows: 1fr 1fr;
     background-color: rgba(0,0,0,-0.2);
-
 }
 
 #join, #s3 {
+    display: none;
+}
+
+#joinUs {
+    float: right;
+    margin-right: 2em;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+#hero {
+    background-image: url(../images/hero.jpg);
+}
+#hero h2 {
+    margin-left: 2em;
+    color: #89043D;
+}
+
+#event {
+    text-align: center;
+}
+#event p {
+    margin: 15px;
+}
+
+#weather img {
+    float: right;
+    margin-right: 100px;
+}
+#weather h3 {
+    font-size:30px;
+}
+#weather h2, #weather h3, #weather p {
+    margin-left: 20px;
+}
+
+#news h2, #news p {
+    margin: 20px;
+}
+#spotlights div hr {
+    border-top: 1px solid #FEFCFB;
+  }
+#spotlights div {
+    text-align: center;
+}
+#spotlights img {
+justify-self: center;
+}
+
+#join button {
+    width: 76%;
+    margin: 12%;
+}
+#join {
+    text-align: center;
+}
+
+#banner {
+    text-align: center;
+    grid-column: 1/4;
+}
+#banner.closed {
     display: none;
 }
