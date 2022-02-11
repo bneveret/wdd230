@@ -28,7 +28,7 @@
 
   <body>
     <header>
-      <img src="images/Evergreen_small.png" alt="logo" />
+      <img src="images/Evergreen.webp" alt="logo" />
       <div>
         <h1>Evergreen Commerce</h1>
         <h2>Boise, Idaho</h2>
@@ -53,9 +53,19 @@
     </header>
 
     <main>
-      <div id="hero"><h2>Welcome to Boise</h2><button id="joinUs">Join the Chamber</button></div>
+      <div id="hero">
+        <picture>
+          <source srcset="images/wdd230-org-medium.jpg" media="(min-width:
+          38rem) and (max-width: 63rem)">
+          <source srcset="images/wdd230-org-large.jpg" media="(min-width:
+          64rem)">
+          <img src="images/wdd230-org-small.jpg" alt="hero image">
+        </picture>
+        <h2>Welcome to Boise</h2>
+        <button id="joinUs">Join the Chamber</button>
+      </div>
       <div id="event"><h2>Ribbon Cutting</h2><h3>The Crab Shack</h3><p>Join us for the grand opening of The Crab Shack, Thursday at 1:00 p.m.</p><a href="#">more info ...</a></div>
-      <div id="weather"><h2>Weather</h2><img src="images/weather.png" alt="weather"><h3>33&deg;C</h3><h3>Partly Cloudy</h3><p>Wind Speed: 2.5 km/h</p><p>Wind Chill: N/A</p></div>
+      <div id="weather"><h2>Weather</h2><img src="images/weather.png" alt="weather"><h3>33&deg;C</h3><h3>Partly Cloudy</h3><p>Wind Speed: 2.5 km/h</p><p id="windChill">Wind Chill: N/A</p></div>
       <div id="news"><h2>News Release</h2><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
       <div id="spotlights">
         <div><h2>Thankful Transport</h2><img src="images/truck.png" alt="truck"><h3>"We get it there for you!"</h3><hr><p>hello@thankfultransport.com<br>+999-999-9999 | Website</p></div>
@@ -67,7 +77,7 @@
 
     <footer>
       <div>
-        <img src="images/Evergreen_small.png" alt="logo" />
+        <img src="images/Evergreen.webp" alt="logo" />
           <h2>Evergreen Commerce</h2>
           <p id=top>4 privet Dr.<br>Boise, Idaho 420</p>
           <p>info@Evergreen.org <br><br>+(123) 456-7890</p>
@@ -80,6 +90,7 @@
       </div>
     </footer>
 
+    <script src="js/windchill.js"></script>
     <script src="js/scripts.js"></script>
   </body>
 </html>
