@@ -14,10 +14,18 @@ const d = new Date();
 month = d.getMonth() + 1;
 day = d.getDate();
 year = d.getFullYear();
-currentdate.textContent = month.toString() +'/'+ day.toString() +'/'+ year.toString();
+currentdate.innerHTML = month.toString() +'/'+ day.toString() +'/'+ year.toString();
 
 const banner = document.querySelector('#banner');
 weekday = d.getDay();
 if (weekday == 0 || weekday == 3 || weekday == 4 || weekday == 5 || weekday == 6){
     banner.classList.toggle("closed");
 };
+
+function pagedays() {
+    date2 = d.getTime()
+    date1 = JSON.parse(window.localStorage.getItem('date1'))
+    timeDifference = (date2 - date1)/(1000 * 3600 * 24);
+    window.localStorage.setItem('date1', JSON.stringify(date1));
+    document.querySelector('#days').innerHTML = 'Days Since Last Visit: ' + timeDifference;
+}
