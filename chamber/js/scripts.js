@@ -25,7 +25,7 @@ if (weekday == 0 || weekday == 3 || weekday == 4 || weekday == 5 || weekday == 6
 function pagedays() {
     var date2 = d.getTime()
     var date1 = JSON.parse(window.localStorage.getItem('date1'))
-    var timeDifference = (date2 - date1)/(1000 * 3600 * 24);
+    var timeDifference = parseInt((date2 - date1)/(1000 * 3600 * 24));
     window.localStorage.setItem('date1', JSON.stringify(date2));
     document.querySelector('#days').innerHTML = 'Days Since Last Visit: ' + timeDifference;
 }
