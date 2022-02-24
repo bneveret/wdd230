@@ -7,6 +7,7 @@ table {
     border: 2px solid rgb(200,200,200);
     letter-spacing: 1px;
     font-size: 0.8rem;
+    box-shadow: 5px 5px 10px #628ca6;
   }
   
   td, th {
@@ -14,8 +15,14 @@ table {
     padding: 10px 20px;
   }
   
-  th, tfoot tr td.foot {
+  th {
     background-color: #7fb9c2;
+    font-size: 1.8rem;
+  }
+
+  tfoot tr td.foot {
+    background-color: #7fb9c2;
+    font-size: 0.6rem;
   }
   
   td {
@@ -33,7 +40,9 @@ table {
 thead tr:nth-child(2) th{
     background-color: #628ca6;
     color: #f5fbfd;
+    font-size: 1rem;
 }
 #nov_sales_goal {
     background-color: #628ca6;
+    color: #f5fbfd;
 }
