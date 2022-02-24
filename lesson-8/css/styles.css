@@ -1,0 +1,39 @@
+html {
+    font-family: Ubuntu, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(200,200,200);
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+  }
+  
+  td, th {
+    border: 1px solid #c3c4c4;
+    padding: 10px 20px;
+  }
+  
+  th, tfoot tr td.foot {
+    background-color: #7fb9c2;
+  }
+  
+  td {
+    text-align: center;
+  }
+  
+  tr:nth-child(even) td {
+    background-color: #e7ffed;
+  }
+  
+  tr:nth-child(odd) td {
+    background-color: #e7f0ed;
+  }
+
+thead tr:nth-child(2) th{
+    background-color: #628ca6;
+    color: #f5fbfd;
+}
+#nov_sales_goal {
+    background-color: #628ca6;
+}
