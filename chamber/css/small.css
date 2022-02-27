@@ -218,3 +218,35 @@ img {
     align-items: center;
     text-align: center;
   }
+  form {
+      padding: 5px;
+      display: grid;
+      grid-template-rows: min-content max-content
+  }
+  form div {
+      padding: 5px;
+  }
+
+  #form {
+      justify-content: center;
+  }
+  .thanks {
+      padding: 20px;
+  }
+  h1.thanks {
+      font-size:90px;
+  }
+  a.thanks {
+      font-size: x-large;
+  }
+
+  input {
+      padding: .75rem;
+  }
+
+  input:required {
+      border: solid 3px yellowgreen;
+  }
+  input:invalid {
+    border: solid 3px rgba(255, 0, 0, 0.397);
+  }

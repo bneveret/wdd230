@@ -22,7 +22,7 @@
     header {font-size: medium;}
     main div {height: auto;}
 
-    main {
+    main:not(#form){
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(3, min-content);
@@ -47,6 +47,9 @@
     #joinUs {
         margin-top: 200px;
         margin-bottom: -50px;
+    }
+    #form {
+        justify-content: center;
     }
 
 }
