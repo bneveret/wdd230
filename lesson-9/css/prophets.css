@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+    justify-content: center;
+    background-color: lightgray;
+}
+div {
+    padding: 2rem;
+    box-shadow: 0px -15px 10px -10px rgb(158, 158, 158);
+}
+section {
+    border: 2px solid rgb(97, 97, 250);
+    margin: 2rem;
+    padding: 1rem;
+    background-color: rgb(185, 207, 255);
+    min-width: fit-content;
+}
+h2 {
+    color: rgb(97, 97, 250);
+}
+h1 {
+    color: rgb(97, 97, 250);
+    font-size: 40px;
+}
