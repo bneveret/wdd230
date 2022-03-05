@@ -1,0 +1,88 @@
+{
+    "companies": [
+      {
+        "logourl": "data/company-logos/the-stil.jpg",
+        "name": "The Stil",
+        "address": "786 W Broad St, Boise ID, 83702",
+        "phone": "(208) 809-8888",
+        "site": "www.ilovethestil.com"
+      },
+      {
+        "logourl": "data/company-logos/boise-juice.png",
+        "name": "Boise Juice Co.",
+        "address": "5628 W State St, Boise ID, 83713",
+        "phone": "208-853-2229",
+        "site": "https://boisejuice.com"
+      },
+      {
+        "logourl": "data/company-logos/chow.png",
+        "name": "Chow Public Market and Eatery",
+        "address": "7609 W Overland Rd, Boise, ID, 83709",
+        "phone": "(208) 912-1870",
+        "site": "https://chowpublicmarket.com"
+      },
+      {
+        "logourl": "data/company-logos/SS.png",
+        "name": "Salt Sanctuary",
+        "address": "5626 W State St, Boise, ID, 87303",
+        "phone": "(208) 417-1818",
+        "site": "https://salt-sanctuary.com"
+      },
+      {
+        "logourl": "data/company-logos/UnderhillGarden.png",
+        "name": "Underhill Garden",
+        "address": "9600 W Brookside Ln, Boise, ID, 83714",
+        "phone": "(208) 202-2444",
+        "site": "www.underhillgarden.com"
+      },
+      {
+        "logourl": "data/company-logos/wandervan.png",
+        "name": "Wandervans",
+        "address": "277 S. 27th St, Boise, ID, 87302",
+        "phone": "(888) 861-6776",
+        "site": "www.wandervans.com"
+      },
+      {
+        "logourl": "data/company-logos/woodcraft.png",
+        "name": "Woodcraft of Boise",
+        "address": "7005 W Overland Rd, Boise, ID, 83709",
+        "phone": "208-338-1190",
+        "site": "www.woodcraft.com/stores/boise"
+      },
+      {
+        "logourl": "data/company-logos/heart-of-timber.png",
+        "name": "Heart of Timber",
+        "address": "Boise, ID, 83713",
+        "phone": "(208) 277-8783",
+        "site": "www.heartoftimber.com"
+      },
+      {
+        "logourl": "data/company-logos/dance-for-parkinsons.png",
+        "name": "Dance for Parkinson's",
+        "address": "501 S 8th Street, Boise, ID, 83702",
+        "phone": "(832) 594-7887",
+        "site": "www.danceforparkinsonsidaho.org"
+      },
+      {
+        "logourl": "data/company-logos/pets.png",
+        "name": "Northwest Pets Boise",
+        "address": "10436 W Overland Rd, Boise, ID, 83709",
+        "phone": "(208) 297-2330",
+        "site": "www.northwestpets.com"
+      },
+      {
+        "logourl": "data/company-logos/LTI.png",
+        "name": "Leisure Time Inc.",
+        "address": "9710 W Fairview Ave, Boise, ID, 83704",
+        "phone": "(208) 376-0180",
+        "site": "https://leisuretimeinc.com"
+      },
+      {
+        "logourl": "data/company-logos/PUP.jpg",
+        "name": "Paddles Up Poke",
+        "address": "237 N 9th Street, Boise, ID, 83702",
+        "phone": "(208) 412-5581",
+        "site": "www.paddlesuppoke.com"
+      }
+    ]
+}
