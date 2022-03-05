@@ -8,6 +8,10 @@
             grid-template-columns: 1fr 1fr 1fr;
             grid-template-rows: min-content;
             }
+        .cards {
+            display: grid;
+            grid-template-columns: 450px 450px;
+            }
         }
     footer div {
         display: grid;
@@ -36,4 +40,5 @@
         display: grid;
       grid-template-columns: min-content max-content
     }
+
 }

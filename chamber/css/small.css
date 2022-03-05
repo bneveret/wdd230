@@ -250,3 +250,18 @@ img {
   input:invalid {
     border: solid 3px rgba(255, 0, 0, 0.397);
   }
+  .company_logo {
+      max-width: 100px;
+      max-height: 100px;
+  }
+  section {
+      background-color: #FEFCFB;
+      color: #89043D;
+      text-align: center;
+      margin: 10px;
+      width: 350px;
+      justify-self: center;
+  }
+  #cards {
+      justify-self: center;
+  }

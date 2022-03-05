@@ -1,6 +1,6 @@
-const requestURL = 'data/data.json';
-const cards = document.querySelector('.cards');
-const list = document.querySelector('.list');
+const requestURL = 'https://bneveret.github.io/wdd230/chamber/data/data.json';
+const cards = document.querySelector('#cards');
+const list = document.querySelector('#list');
 
 fetch(requestURL)
   .then(function (response) {
@@ -20,6 +20,7 @@ function displayCards(company) {
     let site = document.createElement('p');
 
     logo.setAttribute('src', company.logourl);
+    logo.setAttribute('class', 'company_logo')
 
     address.textContent = company.address;
     phone.textContent = company.phone;

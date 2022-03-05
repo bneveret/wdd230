@@ -22,7 +22,7 @@
     header {font-size: medium;}
     main div {height: auto;}
 
-    main:not(#form){
+    main:not(#form, #directory){
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(3, min-content);
@@ -50,6 +50,11 @@
     }
     #form {
         justify-content: center;
+    }
+
+    div.cards {
+        display: grid;
+        grid-template-columns: 450 450 450 450;
     }
 
 }
