@@ -10,7 +10,8 @@
             }
         .cards {
             display: grid;
-            grid-template-columns: 450px 450px;
+            grid-template-columns: 325px 325px;
+            padding: -20px;
             }
         }
     footer div {
@@ -40,5 +41,7 @@
         display: grid;
       grid-template-columns: min-content max-content
     }
+
+    .null {display: none;}
 
 }

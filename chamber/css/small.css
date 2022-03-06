@@ -259,9 +259,40 @@ img {
       color: #89043D;
       text-align: center;
       margin: 10px;
-      width: 350px;
+      width: 300px;
       justify-self: center;
   }
   #cards {
+      justify-self: center;
+  }
+
+  .null {display: none;}
+
+  .list li {
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+  .list :nth-child(even) {
+      background-color: rgba(0,0,0,0.2);
+  }
+  .list :nth-child(odd) {
+      background-color: rgba(0,0,0,0.1);
+  }
+
+  .list {
+      list-style: none;
+      justify-self: center;
+      max-width: 90%;
+  }
+  .listview :nth-child(2){
+    display: none;
+  }
+  .cardview :nth-child(1){
+      display: none;
+  }
+  #view {
+      font-size: x-large;
+      margin-top: 10px;
+      width: min-content;
       justify-self: center;
   }
