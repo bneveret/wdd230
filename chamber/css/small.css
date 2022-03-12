@@ -162,13 +162,15 @@ nav ul.open {display: block;}
     margin: 15px;
 }
 
-#weather img {
-    float: right;
-    margin-right: 100px;
-}
 #weather h3 {
     font-size:30px;
 }
+#weather img {
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+
 #weather h2, #weather h3, #weather p {
     margin-left: 20px;
 }
