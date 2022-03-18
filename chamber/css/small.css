@@ -298,3 +298,13 @@ img {
       width: min-content;
       justify-self: center;
   }
+
+  #contact {
+      text-align: center;
+  }
+  #info, #hours {
+      list-style: none;
+  }
+  #conform {
+      display:inline-block;
+  }

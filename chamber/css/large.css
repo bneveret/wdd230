@@ -22,7 +22,7 @@
     header {font-size: medium;}
     main div {height: auto;}
 
-    main:not(#form):not(#directory){
+    main:not(#form):not(#directory):not(#contact){
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(3, min-content);
@@ -58,5 +58,14 @@
     }
 
     .null {display: none;}
+
+    #contact {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    #contact div {
+        width: 100%;
+    }
 
 }

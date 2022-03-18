@@ -50,11 +50,27 @@
         </ul>
       </nav>
     </header>
-    <main id="directory">
-        <button id="view" class="listview"><span>&#9868;</span><span>&#9871;</span></button>
-
-        <div id="cards" class="null"></div>
-        <ul id="list" class="list"></ul>
+    <main id="contact">
+        <div>
+        <h2>Contact Information</h2>
+        <ul id="info">
+            <li>Phone: +(123) 456-7890</li>
+            <li>Email: info@Evergreen.org</li>
+            <li>4 Privet Dr., Boise, ID, 420</li>
+        </ul>
+        <h2>Office Hours</h2>
+        <ul id="hours">
+            <li>Mon-Thurs: 9am - 9pm</li>
+            <li>Fri-Sat: 9am - 10pm</li>
+            <li>Closed on Sundays</li>
+        </ul>
+        </div>
+        <div>
+        <form action="index.html" method="get" id="conform">
+            <label>Business Name:<br><input name="busname" type="text" autofocus required></label><br>
+            <label>Inquiry:<br><textarea name="inquiry" id="inquiry" cols="30" rows="10"></textarea></label>
+        </form>
+        </div>
     </main>
     <footer>
         <div>
@@ -73,7 +89,5 @@
         </div>
       </footer>
       <script src="js/scripts.js"></script>
-      <script src="js/directory.js"></script>
     </body>
   </html>
-  
