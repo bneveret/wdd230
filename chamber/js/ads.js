@@ -30,6 +30,7 @@ fetch(requestURL)
         title.textContent = company.name;
     
         logo.setAttribute('src', company.logourl);
+        logo.setAttribute('alt', company.name + 'logo');
         logo.setAttribute('class', 'company_logo')
     
         address.textContent = company.address;
