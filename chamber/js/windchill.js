@@ -2,7 +2,6 @@ const OWAPI = "https://api.openweathermap.org/data/2.5/weather?id=5586437&units=
 fetch(OWAPI)
 .then((response) => response.json())
 .then((jsObject) => {
-    console.log(jsObject);
     var tempf = jsObject.main.temp.toFixed(0);
     document.querySelector('#temp').textContent = `${tempf}°F`;
     var wind_speed = jsObject.wind.speed;
