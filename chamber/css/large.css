@@ -67,5 +67,8 @@
     #contact div {
         width: 100%;
     }
+    #ct {
+        grid-column: 1/3;
+    }
 
 }

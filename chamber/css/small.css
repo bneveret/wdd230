@@ -308,3 +308,6 @@ img {
   #conform {
       display:inline-block;
   }
+  #dt {
+      text-align: center;
+  }

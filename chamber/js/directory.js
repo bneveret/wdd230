@@ -20,7 +20,7 @@ function displayCards(company) {
     let site = document.createElement('p');
 
     logo.setAttribute('src', company.logourl);
-    logo.setAttribute('alt', company.name + 'logo');
+    logo.setAttribute('alt', company.name + ' logo');
     logo.setAttribute('class', 'company_logo')
 
     address.textContent = company.address;
