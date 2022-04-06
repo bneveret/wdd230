@@ -13,7 +13,7 @@ fetch(requestURL)
 function displayCards(temple) {
     let card = document.createElement('div');
     let name = document.createElement('h3');
-    let image = document.createElement('image');
+    let image = document.createElement('img');
     let street = document.createElement('p');
     let city = document.createElement('p');
     let phone = document.createElement('p');
@@ -24,6 +24,7 @@ function displayCards(temple) {
     name.textContent = temple.name;
     image.setAttribute('src', temple.image);
     image.setAttribute('alt', temple.name);
+    image.setAttribute('class', 'templeImg');
     street.textContent = temple.street_address;
     city.textContent = temple.city_address;
     phone.textContent = temple.phone;
