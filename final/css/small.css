@@ -2,7 +2,7 @@
     header {
         background-color: #EF7B45;
         border-bottom: #9D695A solid 5px;
-        color: #FFFFFF;
+        color: #000000;
     }    
     main {
         background-color: #FFFEAD;
@@ -11,7 +11,7 @@
     footer {
         background-color: #EF7B45;
         border-top: #9D695A solid 5px;
-        color: #FFFFFF;
+        color: #000000;
     }
     h1, h2, h3 {
         font-family: 'Playfair Display', serif;
@@ -46,6 +46,10 @@
     button:hover:not(#hamburgerBtn) {
         background-color: #1EC3DE;
         color: #16216A;
+    }
+    img:not(.logo) {
+        margin: 5px;
+        border-radius: 20px;
     }
 
 /*Navigation*/

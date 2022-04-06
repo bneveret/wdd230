@@ -3,7 +3,7 @@
         {
             "image": "data/images/Oklahoma-City-Temple.jpg",
             "name": "Oklahoma City Oklahoma Temple",
-            "summary": "",
+            "summary": "The Oklahoma City Oklahoma Temple was the first temple built in Oklahoma. The Oklahoma City Oklahoma Temple closed on October 15, 2017, for an extensive renovation project that altered the exterior appearance of the building and fully upgraded the interior. It was rededicated on Sunday, May 19, 2019, by President Henry B. Eyring, who was the second counselor in the First Presidency.",
             "street_address": "12030 N Mustang Rd",
             "city_address": "Yukon OK 73099-9801",
             "phone": "(1) 405-373-2309",
@@ -32,7 +32,7 @@
         {
             "image": "data/images/star-valley-wyoming-temple.jpg",
             "name": "Star Valley Wyoming Temple",
-            "summary": "",
+            "summary": "The Star Valley Wyoming temple stands on a gentle rise overlooking Highway 89, just south of the community of Afton near the mouth of Hale Canyon. The classical design of the temple echoes architectural elements found in the historic Star Valley Tabernacle, located just a mile north of the temple. The buildings represent the spiritual heart and center of The Church of Jesus Christ of Latter-day Saints community in Star Valley.",
             "street_address": "885 S Washington St",
             "city_address": "Afton WY 83110",
             "phone": "(1) 307-886-6820",
@@ -59,7 +59,7 @@
         {
             "image": "data/images/nauvoo-temple.jpg",
             "name": "Nauvoo Illinois Temple",
-            "summary": "",
+            "summary": "The original Nauvoo Temple, rebuilt in 2002 as the Nauvoo Illinois Temple, stood on a high bluff overlooking a bend in the Mississippi River. It occupied a city block bounded by Woodruff, Mulholland, Knight, and Wells streets. Just two years after its dedication, the Nauvoo Temple was tragically destroyed by arson fire in 1848, leaving only the charred exterior walls. In 1850, the walls were terribly damaged by a tornado, leaving the west facade to stand for a few years until the crumbling remnants were razed.",
             "street_address": "50 N Wells St",
             "city_address": "Nauvoo IL 62354",
             "phone": "(1) 217-453-6252",
@@ -85,7 +85,7 @@
         {
             "image": "data/images/winter-quarters-nebraska-temple.jpg",
             "name": "Winter Quarters Nebraska Temple",
-            "summary": "",
+            "summary": "Florence is a beautiful place. This high promontory, as it sees the rolling river pass by it, bears the misery and the memory of so many who have been here and who are interred here. Let us always revere, let us always remember and let us recognize this temple will stand as a monument and testament to the good will of God and the peace and harmony of all mankind",
             "street_address": "8283 N 34th St",
             "city_address": "Omaha NE 68112",
             "phone": "(1) 402-453-3406",
