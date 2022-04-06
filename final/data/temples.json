@@ -1,0 +1,112 @@
+{
+    "temples": [
+        {
+            "image": "data/images/Oklahoma-City-Temple.jpg",
+            "name": "Oklahoma City Oklahoma Temple",
+            "summary": "",
+            "street_address": "12030 N Mustang Rd",
+            "city_address": "Yukon OK 73099-9801",
+            "phone": "(1) 405-373-2309",
+            "services": [
+                "No clothing rental available",
+                "No cafeteria available",
+                "No patron housing available",
+                "No distribution center nearby"
+            ],
+            "history": [
+                "14 March 1999 - Announced",
+                "3 July 1999 - Groundbreaking",
+                "30 July 2000 - Dedicated — dedicatory prayer",
+                "19 May 2019 - Rededicated — dedicatory prayer"
+            ],
+            "closing_schedule": [
+                "Monday, 20 June 2022 - Monday, 11 July 2022",
+                "Saturday, 1 October 2022 - Sunday, 2 October 2022",
+                "Wednesday, 23 November 2022 (Limited Operations)",
+                "Wednesday, 23 November 2022 - Thursday, 24 November 2022",
+                "Monday, 28 November 2022 - Monday, 12 December 2022",
+                "Saturday, 24 December 2022 - Monday, 26 December 2022",
+                "Saturday, 31 December 2022"
+            ]
+        },
+        {
+            "image": "data/images/star-valley-wyoming-temple.jpg",
+            "name": "Star Valley Wyoming Temple",
+            "summary": "",
+            "street_address": "885 S Washington St",
+            "city_address": "Afton WY 83110",
+            "phone": "(1) 307-886-6820",
+            "services": [
+                "No clothing rental available",
+                "No cafeteria available",
+                "No patron housing available",
+                "Distribution center nearby"
+            ],
+            "history": [
+                "1 October 2011 - Announced",
+                "25 April 2015 - Groundbreaking",
+                "30 October 2016 - Dedicated — dedicatory prayer"
+            ],
+            "closing_schedule": [
+                "Monday, 4 April 2022 - Monday, 18 April 2022",
+                "Saturday, 1 October 2022",
+                "Monday, 3 October 2022 - Monday, 17 October 2022",
+                "Wednesday, 23 November 2022 - Thursday, 24 November 2022",
+                "Saturday, 24 December 2022",
+                "Saturday, 31 December 2022"
+            ]
+        },
+        {
+            "image": "data/images/nauvoo-temple.jpg",
+            "name": "Nauvoo Illinois Temple",
+            "summary": "",
+            "street_address": "50 N Wells St",
+            "city_address": "Nauvoo IL 62354",
+            "phone": "(1) 217-453-6252",
+            "services": [
+                "Clothing rental available",
+                "No cafeteria available",
+                "No patron housing available",
+                "No distribution center nearby"
+            ],
+            "history": [
+                "4 April 1999 - Announced",
+                "24 October 1999 - Groundbreaking",
+                "27 June 2002 - Dedicated — dedicatory prayer"
+            ],
+            "closing_schedule": [
+                "Monday, 28 March 2022 - Monday, 23 May 2022",
+                "Monday, 26 September 2022 - Monday, 24 October 2022",
+                "Thursday, 24 November 2022",
+                "Saturday, 24 December 2022",
+                "Saturday, 31 December 2022"
+            ]
+        },
+        {
+            "image": "data/images/winter-quarters-nebraska-temple.jpg",
+            "name": "Winter Quarters Nebraska Temple",
+            "summary": "",
+            "street_address": "8283 N 34th St",
+            "city_address": "Omaha NE 68112",
+            "phone": "(1) 402-453-3406",
+            "services": [
+                "No clothing rental available",
+                "No cafeteria available",
+                "No patron housing available",
+                "No distribution center nearby"
+            ],
+            "history": [
+                "14 June 1999 - Announced",
+                "28 November 1999 - Groundbreaking",
+                "22 April 2001 - Dedicated — dedicatory prayer"
+            ],
+            "closing_schedule": [
+                "Monday, 29 August 2022 - Monday, 26 September 2022",
+                "Saturday, 1 October 2022",
+                "Thursday, 24 November 2022",
+                "Saturday, 24 December 2022",
+                "Saturday, 31 December 2022"
+            ]
+        }
+    ]
+}

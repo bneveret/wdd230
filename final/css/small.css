@@ -1,0 +1,105 @@
+/*Defaults*/
+    header {
+        background-color: #EF7B45;
+        border-bottom: #9D695A solid 5px;
+        color: #FFFFFF;
+    }    
+    main {
+        background-color: #FFFEAD;
+        color: #000000;
+    }
+    footer {
+        background-color: #EF7B45;
+        border-top: #9D695A solid 5px;
+        color: #FFFFFF;
+    }
+    h1, h2, h3 {
+        font-family: 'Playfair Display', serif;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    p, a {
+        font-family: 'Libre Baskerville', serif;
+        font-size: 16px;
+    }
+    div {
+        background-color: #EF7B45;
+        color: #FFFFFF;
+        border: #9D695A solid 5px;
+        border-radius: 30px;
+        margin: 5px;
+        padding: 5px 10px 5px 10px;
+    }
+    button {
+        background-color: #16216A;
+        color: #1EC3DE;
+        border: #FFFFFF solid 1px;
+        border-radius: 20px;
+    }
+    button:hover:not(#hamburgerBtn) {
+        background-color: #1EC3DE;
+        color: #16216A;
+    }
+
+/*Navigation*/
+    nav button {
+        margin: .2rem 2vw;
+        background: transparent;
+        border: none;
+        font-size: 2rem;
+        color: #FFFEAD;
+    }
+    
+    nav {
+        background-color: #EF7B45;
+    }
+    
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    nav ul li a {
+        display: block;
+        padding: .8rem 2vw;
+        text-decoration: none;
+        color: #FFFEAD;
+        border-top: 1px solid rgba(0,0,0,0.5);
+    }
+    
+    nav ul li.active a {
+        background-color: rgba(0,0,0,0.2);
+        color: #16216A;
+    }
+    
+    nav ul li a:hover {
+        background-color: rgba(0,0,0,0.3);;
+    }
+    
+    nav ul {display: none;}
+    nav ul.open {display: block;}
+    
+    #hamburgerBtn span:nth-child(1) {display: block;}
+    #hamburgerBtn span:nth-child(2) {display: none;}
+    
+    #hamburgerBtn.open span:nth-child(1) {display: none;}
+    #hamburgerBtn.open span:nth-child(2) {display: block;}
+/*Forms*/
+    input {
+        padding: .75rem;
+    }
+
+    input:required {
+        border-left: solid 4px rgb(18, 224, 29);
+    }
+    input:invalid {
+    border-left: solid 5px rgba(255, 0, 0, 0.397);
+    }
