@@ -1,6 +1,6 @@
 const requestURL = 'https://bneveret.github.io/wdd230/final/data/temples.json';
 const temple_page = document.querySelector('#temples');
-let liked_list = [];
+let liked_list = JSON.parse(window.localStorage.getItem('liked_list'));
 
 
 fetch(requestURL)
@@ -40,8 +40,8 @@ function displayCards(temple) {
     createList(history, temple.history);
     closingtitle.textContent = 'Closing Schedule:';
     createList(closing, temple.closing_schedule);
-    like.textContent = 'Like';
-    like.onclick = toggleLike;
+    like.textContent = 'Like ' + temple.name;
+    like.onclick= toggleLike;
 
     card.appendChild(name);
     card.appendChild(image);
@@ -57,6 +57,25 @@ function displayCards(temple) {
     card.appendChild(like);
     temple_page.appendChild(card);
 
+    function toggleLike() {
+    
+    if (liked_list == null) {
+        liked_list = [];
+    }
+    if (liked_list.includes(like.textContent)) {
+        for (i=0; i<liked_list.length; i++) {
+            if (liked_list[i] == like.textContent) {
+                liked_list.splice(i);
+            }
+        }
+        window.localStorage.setItem('liked_list', JSON.stringify(liked_list));
+    }
+    else {
+        liked_list.push(like.textContent);
+        window.localStorage.setItem('liked_list', JSON.stringify(liked_list));
+    }
+    console.log(liked_list);
+}
 }
 
 function createList(ul, jsonList) {
@@ -67,21 +86,5 @@ function createList(ul, jsonList) {
     }
 }
 
-function toggleLike(temple) {
-    liked_list = JSON.parse(window.localStorage.getItem('liked_list'));
-    if (liked_list == null) {
-        liked_list = [];
-    }
-    console.log(liked_list)
-    if (liked_list.includes(temple.name)) {
-        liked_list[temple.name].pop();
-        window.localStorage.setItem('liked_list', JSON.stringify(liked_list));
-    }
-    else {
-        liked_list.push(temple.name);
-        window.localStorage.setItem('liked_list', JSON.stringify(liked_list));
-    }
-}
-liked_temples = document.createElement('p');
+liked_temples = document.querySelector('#liked_temples');
 liked_temples.textContent = liked_list;
-temple_page.appendChild(liked_temples);
