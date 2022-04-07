@@ -1,5 +1,7 @@
 const requestURL = 'https://bneveret.github.io/wdd230/final/data/temples.json';
 const temple_page = document.querySelector('#temples');
+let liked_list = [];
+
 
 fetch(requestURL)
 .then(function (response) {
@@ -65,6 +67,21 @@ function createList(ul, jsonList) {
     }
 }
 
-function toggleLike() {
-
+function toggleLike(temple) {
+    liked_list = JSON.parse(window.localStorage.getItem('liked_list'));
+    if (liked_list == null) {
+        liked_list = [];
+    }
+    console.log(liked_list)
+    if (liked_list.includes(temple.name)) {
+        liked_list[temple.name].pop();
+        window.localStorage.setItem('liked_list', JSON.stringify(liked_list));
+    }
+    else {
+        liked_list.push(temple.name);
+        window.localStorage.setItem('liked_list', JSON.stringify(liked_list));
+    }
 }
+liked_temples = document.createElement('p');
+liked_temples.textContent = liked_list;
+temple_page.appendChild(liked_temples);

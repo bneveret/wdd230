@@ -3,7 +3,10 @@
         background-color: #EF7B45;
         border-bottom: #9D695A solid 5px;
         color: #000000;
-    }    
+    }  
+    header h1 {
+        display: none;
+    }  
     main {
         background-color: #FFFEAD;
         color: #000000;
@@ -12,6 +15,8 @@
         background-color: #EF7B45;
         border-top: #9D695A solid 5px;
         color: #000000;
+        align-items: center;
+        text-align: center;
     }
     h1, h2, h3 {
         font-family: 'Playfair Display', serif;
@@ -106,4 +111,8 @@
     }
     input:invalid {
     border-left: solid 5px rgba(255, 0, 0, 0.397);
+    }
+/**/
+    .social {
+        float: right;
     }

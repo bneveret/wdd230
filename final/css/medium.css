@@ -1,0 +1,10 @@
+@media only screen and (min-width: 38rem) {
+    #weather_section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    #summary {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}

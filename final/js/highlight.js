@@ -15,15 +15,19 @@ fetch(requestURL)
 })
 
 function createHighlight(temple) {
+    let image_section = document.createElement('section')
+    let text_section = document.createElement('section')
     let image = document.createElement('img');
-    let name = document.createElement('p');
+    let name = document.createElement('h3');
     let summary = document.createElement('p');
 
     image.setAttribute('src', temple.image);
     image.setAttribute('alt', temple.name);
     name.textContent = temple.name;
     summary.textContent = temple.summary;
-    highlight.appendChild(image);
-    highlight.appendChild(name);
-    highlight.appendChild(summary);
+    image_section.appendChild(image);
+    text_section.appendChild(name);
+    text_section.appendChild(summary);
+    highlight.appendChild(image_section);
+    highlight.appendChild(text_section);
 }

@@ -1,0 +1,23 @@
+@media only screen and (min-width: 64rem) {
+    #bottom {
+        display: grid;
+        grid-template-columns: 75% 25%;
+    }
+    #services {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    #services div {
+        min-height: 350px;
+    }
+    #temples {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    header h1 {
+        display: inline;
+    }
+    #headtitle {
+        text-align: center;
+    }
+}
